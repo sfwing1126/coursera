@@ -6,49 +6,57 @@
 
 h1 {
 	text-align:center;
+	margin-bottom: 40px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 175%;
 }
 
 /********* Section Formatting *********/
 
 
 #section1, #section2, #section3 {
-	border: 2px solid black;
-	height: 150px;
-	background-color: #AAAAAA;
+	border: 1px solid black;
+	height: 200px;
+	background-color: #CCCCCC;
 	margin: 10px;
-	overflow:auto;
+	position:relative;
 }
 
-/********** Subheading ************/
+/********** Section Titles Formatting ************/
 
 h2 {
-	float: right;
+	position:absolute;
+	top:0px;
+	right:0px;
 	font-size: 20px;
-	margin:0px 0px 5px 0px;
-	padding: 5px;
-	border-left: 2px solid black;
-	border-bottom: 2px solid black;
+	margin:0px;
+	padding: 8px;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 125%;
 }
 
-#subhead1 {
+#sectil1 {
 	background-color: #FF3355;
 }
 
-#subhead2 {
+#sectil2 {
 	background-color: #FF66AA;
 }
 
-#subhead3 {
+#sectil3 {
 	background-color: #EEEE00;
 }
 
 /********* Content Formatting *********/
 
 p {
-	clear:right;
 	width:90%;
 	margin-right:auto;
 	margin-left:auto;
+	margin-top:50px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
 /*************** Responsive Design *****************/
