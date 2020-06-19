@@ -16,6 +16,7 @@ h1 {
 	height: 150px;
 	background-color: #AAAAAA;
 	margin: 10px;
+	overflow:auto;
 }
 
 /********** Subheading ************/
@@ -48,7 +49,6 @@ p {
 	width:90%;
 	margin-right:auto;
 	margin-left:auto;
-	overflow:auto;
 }
 
 /*************** Responsive Design *****************/
